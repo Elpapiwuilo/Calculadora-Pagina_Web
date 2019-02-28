@@ -1,0 +1,95 @@
+
+/*****************
+
+AUTOR: Sebastian Sierra Pineda.******************
+
+*******************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    background: #eeeeee;
+    color:#000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+center{
+    border-radius:10px;
+    margin-top: 5%; 
+}
+h1{
+    width: 50%;
+    padding: 20px 20px;
+    color:#fff;
+    margin: auto;
+    background:  #eb984e;
+    border:4px solid #909497;
+    border-radius:15px;
+}
+#calculadora{
+    width: 100%;
+    margin: 60px auto;
+    background:#d7dbdd;
+    text-align: center;
+    line-height: 35px;
+    padding: 20px 20px;
+    font-size: 25px;
+    max-width: 400px;
+    border:1px solid #909497;
+    border-radius: 3%;
+}
+#calculadora>ul>li{
+    color:black;
+    background: #eeeeee;
+    list-style: none;
+    display:block;
+    padding: 25px 35px;
+    border: 1px solid rgba(0,0,0,.3);
+    -webkit-box-shadow: 1px 3px 3px 3px rgba(0,0,0,.5);
+    box-shadow:5px  3px 3px rgba(0,0,0,.35);
+    border-radius: 5%;
+}
+#calculadora>ul>li:hover{
+    background: chocolate;
+    color:white;
+}
+#calculadora>ul>li:active{
+    background: green;
+    color:white;
+}
+#operaciones{
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 60px;
+    padding: 20px 20px;
+    margin-bottom: 10%;
+    padding-top: 15%;
+    color:black;
+    background: #eeeeee;
+    text-align:end; 
+    -webkit-box-shadow: 1px 3px 3px 3px rgba(0,0,0,.5);
+    box-shadow:5px 3px 3px 3px rgba(0,0,0,.35);
+    border-radius: 3%;  
+}
+ul{
+    display: grid;
+    grid-template-columns: minmax(50px,1fr) minmax(40px,1fr) minmax(40px,1fr) minmax(40px,1fr);
+    grid-gap: 15px;
+    margin-bottom: 20px;
+}
+#borrar{
+    width: 30%;
+    font-size: 1.5rem;
+    padding: 10px 0;
+    color:#fff;
+    margin: auto;
+    background:  #eb984e;
+    border:4px solid #909497;
+    border-radius:15px;
+}
+#borrar:hover{
+    background: white;
+    color:chocolate;
+}
